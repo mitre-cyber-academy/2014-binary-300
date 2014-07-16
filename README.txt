@@ -11,3 +11,5 @@ So here we are using place holders for hex, bytes and writing. We are writing "8
 Calculating byte offsets: The easiest way to do this is to use a hex to decimal converter. Hex 83 translates to 131 in decimal and the rest is seen as above. As you can see we used "%119x%4$hn" we had to account for the previous 12 bytes seen. 119 + 12 = 131, which is what we need. The same will have to be accounted for the previous bytes encountered.
 
 To compile: gcc -Wall -m32 -fno-stack-protector format.c -o doors
+
+key: d17d226ccc2b53bc7e4120982abec456e627d60c
